@@ -19,7 +19,7 @@ const TodoList:React.FC = () => {
             setInput('');
         }
     };
-
+    // console.log("type",typeof typeof null == typeof typeof 21)
     const removeTask = (id: number) => {
         setTasks((prev) => prev.filter((task) => task.id !== id));
     };
