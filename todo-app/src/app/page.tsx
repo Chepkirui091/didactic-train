@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center min-h-screen space-y-4">
         <h1 className="text-4xl font-bold">Welcome to My Themed App!</h1>
         <p>This app supports light and dark themes.</p>
-        <ThemeToggle />
+        {/*<ThemeToggle />*/}
 
           {/*<DevDaphNavbar />*/}
           {/*<DevDaphButton onClick={() => alert('Button clicked!')}>Click Me</DevDaphButton>*/}
